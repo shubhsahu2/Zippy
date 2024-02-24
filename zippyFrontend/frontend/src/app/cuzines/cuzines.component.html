@@ -1,0 +1,19 @@
+<h2 class="textStyle text-center" style="text-align: center;">Welcome to Zippy</h2>
+<div class="row" *ngIf="display?.length">
+  <div class="col-md-3 mt-3" *ngFor="let f of display" (click)="navigateToCart(f)" >
+    
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="{{f.image}}" alt="Card Image" height="200px">
+          <h3>{{f.Name}}</h3>
+          <h4>{{f.price}}</h4>
+
+        </div>
+        
+        
+      </div>
+    </div>
+  </div> 
+</div>
+

@@ -1,0 +1,20 @@
+<h2 class="textStyle text-center" style="text-align: center;">Welcome to Zippy</h2>
+<div class="row" *ngIf="foodArray?.length">
+  <div class="col-md-3 mt-3" *ngFor="let f of foodArray" (click)="showcusine(f.Name)">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="{{f.image}}" alt="Card Image" height="200px">
+          <h3>{{f.Name}}</h3>
+        </div>
+        <div class="flip-card-back">
+          <p>{{f.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+
+<div *ngIf="!foodArray?.length">
+  <h1 class="text text-center" id="errormessage">{{errormessage}}</h1>
+</div>

@@ -1,11 +1,120 @@
 {
-    "product":[
-        {"id":1,
-        "name":"shubhsahu"
-    
-    
-    
+    "food":[
+        {
+            "Name":"NorthIndian",
+            "image":"assets/northindian1.jpg",
+            "description":"North Indian curries usually have thick, moderately spicy and creamy gravies. The use of dried fruits and nuts is fairly common even in everyday foods. Dairy products like milk, cream, cottage cheese, ghee (clarified butter) and yogurt play an important role in the cooking of both savory and sweet dishes."
+        },
+        {
+            "Name":"SouthIndian",
+            "image":"assets/southindian1.jpg",
+            "description":"South Indian food is known for the use of generous coconut in their curries. Other basic and common ingredients include curry leaves, mustard oil, red chillies and oil etc. Here we have tried to demystify and explain the different cuisines of South India. Have a look!"
+
+        },
+        {
+            "Name":"EastIndian",
+            "image":"assets/Eastside1.jpg",
+            "description":"Rice is the staple food here, eaten with fresh local vegetables, fish and meat often cooked lightly in pungent mustard oil. "
+
+        },
+        {
+            "Name":"WestIndian",
+            "image":"assets/westindian1.jpg",
+            "description":"Staples include homemade khichdi (rice and lentils or rice and mung beans), chaas (buttermilk), and pickles as side. Main dishes are based on steam cooked vegetables with different spices and dals that are added to a vaghar, which is a mixture of spices heated in oil that varies depending on the main ingredients."
+
+        }
+    ],
+    "NorthIndian":[
+        {
+            "Name":"Bahubali Thali",
+            "image":"assets/northindian1.jpg",
+            "price":300
+
+        },
+        {
+            "Name":"Thali",
+            "image":"assets/northindian4.jpg",
+            "price":200
+        },
+        {
+            "Name":"Puri Bhaji",
+            "image":"assets/northindian3.jpg",
+            "price":80
+        },
+        {
+            "Name":"khichdi",
+            "image":"assets/northindian2.jpg",
+            "price":60
+        }
+
+    ],
+    "SouthIndian":[
+        {
+            "Name":"Vada",
+            "image":"assets/southindian5.jpg",
+            "price":30
+        },
+        {
+            "Name":"Idli",
+            "image":"assets/southindian2.jpg",
+            "price":25
+        },
+        {
+            "Name":"Dosa",
+            "image":"assets/southindian3.jpg",
+            "price":30
+        },
+        {
+            "Name":"Thali",
+            "image":"assets/southindian4.jpg",
+            "price":175
         }
         
+    ],
+    "EastIndian":[
+        {
+            "Name":"Litti Chokha",
+            "image":"assets/Eastside2.jpg",
+            "price":95
+        },
+        {
+            "Name":"Rasgulla",
+            "image":"assets/Eastside3.jpg",
+            "price":40
+        },
+        {
+            "Name":"Momos",
+            "image":"assets/Eastside4.jpg",
+            "price":20
+        },
+        {
+            "Name":"Dalma",
+            "image":"assets/Eastside5.jpg",
+            "price":45
+        }
+        
+    ],
+    "WestIndian":[
+        {
+            "Name":"Vada Pav",
+            "image":"assets/westindian2.jpg",
+            "price":20
+        },
+        {
+            "Name":"Dhokla",
+            "image":"assets/westindian5.jpg",
+            "price":35
+        },
+        {
+            "Name":"Zunka Bhakri",
+            "image":"assets/westindian3.jpg",
+            "price":50
+        },
+        {
+            "Name":"Methi ka Thepla",
+            "image":"assets/westindian4.jpg",
+            "price":55
+        }
     ]
+    
 }

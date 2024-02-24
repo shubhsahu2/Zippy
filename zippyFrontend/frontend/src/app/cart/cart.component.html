@@ -1,0 +1,7 @@
+<div *ngIf="selectedFoodItem">
+  <div>
+    <h3>Selected Food Item Name: {{ selectedFoodItem.name }}</h3>
+    <p>Price: {{ selectedFoodItem.price | currency:'INR':'symbol':'1.2-2' }}</p>
+  </div>
+</div>
+<a href="#home"> Want to add more go to menu</a>
